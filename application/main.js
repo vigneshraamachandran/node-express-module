@@ -6,7 +6,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 var mongoose=require('mongoose');
 var Products=require('./datas/product-data.js')
 var Copied=require('./datas/copieddata');
-mongoose.connect('mongodb://localhost/rvj');
+mongoose.connect('mongodb://localhost/filename');
 app.get('/data',function(req,res)
 {
     res.send(" your name is vignesh");
@@ -74,6 +74,7 @@ app.put('/data/copies/view/add',function(req,res)
         }
     })
 });
+//litening port
 var port =8000;
 app.listen(port,function(req,res){
     console.log(" your code is runing on "+port);
