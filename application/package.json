@@ -1,0 +1,25 @@
+{
+  "name": "newapi",
+  "version": "1.0.0",
+  "description": "\"let's try some new\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vignesh-ramachandran/node-express-modules.git"
+  },
+  "author": "vignesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vignesh-ramachandran/node-express-modules/issues"
+  },
+  "homepage": "https://github.com/vignesh-ramachandran/node-express-modules#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.7",
+    "node": "^17.7.1"
+  }
+}
